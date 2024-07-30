@@ -14,6 +14,7 @@ body {
   width: 25rem;
   padding: 1rem;
   border-radius: 0.5rem;
+  margin: 1rem;
 }
 
 .card-1 {
@@ -31,4 +32,25 @@ body {
   background: rgb(177, 177, 21);
   background: linear-gradient(to bottom left, transparent 50%, rgb(177, 177, 21) 0);
   border-bottom-left-radius: 0.5rem;
+  box-shadow: -5px 5px 5px rgb(213, 213, 30);
+}
+
+
+.card-2 {
+  background: linear-gradient(-135deg, transparent 35px, purple 0);
+  color: #f3f3f3;
+}
+
+
+.card-2::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 49px;
+  height: 49px;
+  background: rgb(177, 177, 21);
+  background: linear-gradient(to bottom left, transparent 50%, rgb(95, 10, 95) 0);
+  border-bottom-left-radius: 0.5rem;
+  box-shadow: -5px 5px 5px rgb(133, 7, 133);
 }
